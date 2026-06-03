@@ -1,2 +1,3 @@
 # b1-access-floorplan-prototype
-Interactive workspace booking floorplan prototype for Bharat1 AI
+Personal prototype inspired by workspace booking systems.
+Not affiliated with or endorsed by any company.
