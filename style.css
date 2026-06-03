@@ -62,33 +62,79 @@ header h1 {
 
 .zone {
     position: absolute;
-    background: rgba(111, 44, 255, 0.9);
-    color: white;
-    border: none;
-    padding: 10px 14px;
-    border-radius: 8px;
+    background: transparent;
+    border: 2px solid transparent;
     cursor: pointer;
-    font-weight: bold;
     transition: 0.2s;
 }
 
 .zone:hover {
-    transform: scale(1.05);
+    border: 2px solid #6f2cff;
+    background: rgba(111, 44, 255, 0.08);
 }
 
 /* Positions */
 
 .bay08 {
-    top: 10%;
-    left: 40%;
+    top: 2%;
+    left: 12%;
+    width: 58%;
+    height: 18%;
 }
 
 .bay05 {
-    top: 35%;
-    left: 25%;
+    top: 22%;
+    left: 12%;
+    width: 31%;
+    height: 18%;
+}
+.bay09 {
+    top: 22%;
+    left: 45%;
+    width: 21%;
+    height: 18%;
+}
+.conference {
+    top: 2%;
+    right: 3%;
+    width: 12%;
+    height: 25%;
+}
+.bay01{
+    top: 48%;
+    left: 14%;
+    width: 23%;
+    height: 15%;
 }
 
-.conference {
-    top: 15%;
-    right: 5%;
+.bay06{
+    top: 48%;
+    left: 55%;
+    width: 23%;
+    height: 15%;
+}
+
+.bay07{
+    top: 67%;
+    left: 14%;
+    width: 22%;
+    height: 13%;
+}
+
+.bay02{
+    top: 67%;
+    left: 55%;
+    width: 23%;
+    height: 13%;
+}
+#bookBtn{
+    margin-top:20px;
+    padding:12px 24px;
+    background:#6c3cff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
 }
