@@ -1,1 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f4ff;
+    color: #222;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e6ddff;
+}
+
+header h1 {
+    color: #6f2cff;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.map-section {
+    flex: 3;
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.floorplan {
+    width: 100%;
+    display: block;
+}
+
+.info-panel {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.info-panel h2 {
+    color: #6f2cff;
+    margin-bottom: 15px;
+}
+
+.info-panel p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.zone {
+    position: absolute;
+    background: rgba(111, 44, 255, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.zone:hover {
+    transform: scale(1.05);
+}
+
+/* Positions */
+
+.bay08 {
+    top: 10%;
+    left: 40%;
+}
+
+.bay05 {
+    top: 35%;
+    left: 25%;
+}
+
+.conference {
+    top: 15%;
+    right: 5%;
+}

@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1 Access Floorplan Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>B1 ACCESS - INTERACTIVE FLOOR MAP</h1>
+        <p>Select a workspace zone to view details.</p>
+    </header>
+
+    <div class="container">
+
+        <div class="map-section">
+
+            <img src="assets/simplified-floorplan.jpeg" class="floorplan">
+
+            <button class="zone bay05"
+                onclick="showZone('Open Bay 05','102 Desks','Available')">
+                Open Bay 05
+            </button>
+
+            <button class="zone bay08"
+                onclick="showZone('Open Bay 08','138 Desks','Available')">
+                Open Bay 08
+            </button>
+
+            <button class="zone conference"
+                onclick="showZone('Conference Room','3 Rooms','Available')">
+                Conference
+            </button>
+
+        </div>
+
+        <div class="info-panel">
+
+            <h2 id="zoneTitle">Select a Zone</h2>
+
+            <p id="zoneDesks">Click any highlighted area.</p>
+
+<p id="zoneCapacity"></p>
+
+<p id="zoneAmenities"></p>
+
+            <p id="zoneStatus"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
